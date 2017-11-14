@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Transpose</title>
+	<meta charset="utf-8">
+	<link rel="icon" href="img/acoustic-guitar.png">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+</head>
+<body style="background-color: #E26D5A">
+	<div class="nav-links">
+		<h1 class="logo-h1">T<span style="color: #EEC643">m</span></h1>
+		<a href="transpose.html">transpose</a>
+		<a href="#">chords</a>
+	</div>
+	<select>
+	  <option value="volvo">Am</option>
+	  <option value="saab">Am7</option>
+	  <option value="opel">A</option>
+	  <option value="audi">A7</option>
+	  <option value="volvo">Bm</option>
+	  <option value="saab">B7</option>
+	  <option value="opel">Hm</option>
+	  <option value="audi">H</option>
+	</select>
+	<div class="chord-input-container">
+		<input id="firstChord" type="text" name="chord">
+		<input id="secondChord" type="text" name="chord">
+		<input id="thirdChord" type="text" name="chord">
+		<input id="fourthChord" type="text" name="chord">
+	</div>
+	<div id="chordsShow"></div>
+	<div class="action-buttons">
+		<button id="higherBtn" class="h-btn">Higher</button>
+		<button id="lowerBtn" class="h-btn">Lower</button>
+	</div>
+	<div class="chord-input-container">
+		<input id="fifthChord" type="text" name="chord">
+		<input id="sixtChord" type="text" name="chord">
+		<input id="seventhChord" type="text" name="chord">
+		<input id="eightChord" type="text" name="chord">
+	</div>
+	<script
+		src="https://code.jquery.com/jquery-3.2.1.js"
+	    integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+	    crossorigin="anonymous">
+  </script>
+  <script src="js/script.js"></script>
+</body>
+</html>

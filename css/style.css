@@ -1,0 +1,146 @@
+body {
+	background-color: #141414;
+	margin: 0;
+}
+
+.container {
+	background-image: url('../img/guitar.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 600px; 
+}
+
+button.btn {
+	padding: 10px 40px;
+	background-color: #EEC643;
+	border: none;
+	border-radius: 25px;
+	cursor: pointer;
+	position: relative;
+	left: 75%;
+	transform: translateX(-50%);
+}
+button.btn:hover, button.h-btn:hover {
+	background-color: #141414;
+	transition: 0.3s;
+}
+
+
+button.btn:focus {
+	outline: none;
+}
+
+button.btn a {
+	text-decoration: none;
+	color: #141414;
+	text-transform: uppercase;
+	font-family: 'Anton', sans-serif;
+	letter-spacing: 2px;
+	font-size: 25px;
+}
+
+h1.first-header {
+	font-family: 'Anton', sans-serif;
+	font-size: 60px;
+	color: #141414;
+	text-transform: uppercase;
+	letter-spacing: 7px;
+	margin: 235px 0 0 15%;
+}
+
+h1.second-header {
+	font-family: 'Anton', sans-serif;
+	font-size: 30px;
+	color: #141414;
+	text-transform: uppercase;
+	letter-spacing: 7px;
+	text-align: center;
+}
+
+h1.logo-h1 {
+	font-family: 'Anton', sans-serif;
+	font-size: 40px;
+	color: #141414;
+	position: absolute;
+	left: 10px;
+	margin: 0;
+	letter-spacing: 2px;
+}
+
+div.nav-links {
+	display: flex;
+	justify-content: flex-end;
+}
+
+div.nav-links a {
+	text-decoration: none;
+	font-size: 25px;
+	font-family: 'Anton', sans-serif;
+	color: #EEC643;
+	text-transform: uppercase;
+	padding: 10px;
+	letter-spacing: 2px;
+}
+
+div.nav-links a:hover {
+	color: #141414;
+	transition: 0.3s;
+}
+
+div.chord-input-container {
+	display: flex;
+	justify-content: center;
+
+}
+
+div.chord-input-container input#firstChord, div.chord-input-container input#secondChord, div.chord-input-container input#thirdChord, div.chord-input-container input#fourthChord, div.chord-input-container input#fifthChord, div.chord-input-container input#sixtChord, div.chord-input-container input#seventhChord, div.chord-input-container input#eightChord {
+	width: 100px;
+	height: 100px;
+	margin: 30px;
+	font-size: 70px;
+	font-family: 'Anton', sans-serif;
+	color: #EEC643;
+	background-color: #141414;
+	text-align: center;
+	border-radius: 7px;
+	border: none;
+}
+
+div.chord-input-container input#firstChord:focus, 
+div.chord-input-container input#secondChord:focus, 
+div.chord-input-container input#thirdChord:focus, 
+div.chord-input-container input#fourthChord:focus,
+div.chord-input-container input#fifthChord:focus, 
+div.chord-input-container input#sixtChord:focus, 
+div.chord-input-container input#seventhChord:focus, 
+div.chord-input-container input#eightChord:focus,
+button.h-btn:focus {
+	outline: none;
+}
+
+button.h-btn {
+	padding: 10px 40px;
+	background-color: #EEC643;
+	border: none;
+	border-radius: 25px;
+	cursor: pointer;
+	color: #141414;
+	text-transform: uppercase;
+	font-family: 'Anton', sans-serif;
+	letter-spacing: 2px;
+	font-size: 25px;
+	margin: 20px;
+}
+
+.action-buttons {
+	display: flex;
+	justify-content: center;
+}
+
+#chordsShow {
+	font-family: 'Anton', sans-serif;
+	letter-spacing: 2px;
+	font-size: 50px;
+	color: #EEC643;
+}
